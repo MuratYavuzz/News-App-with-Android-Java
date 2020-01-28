@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txtView_"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:text="Okumak İstediğiniz Haber Bültenini Seçiniz"
+        android:textSize="19dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/bbcnews"
+            android:layout_width="140dp"
+            android:layout_height="130dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:baselineAligned="false"
+            android:src="@drawable/bbcnews" />
+
+        <ImageButton
+            android:id="@+id/wallstreet"
+            android:layout_width="140dp"
+            android:layout_height="130dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:src="@drawable/wallstreet" />
+
+        <ImageButton
+            android:id="@+id/techcrunch"
+            android:layout_width="140dp"
+            android:layout_height="130dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:src="@drawable/techcrunch" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/cnbc"
+            android:layout_width="140dp"
+            android:layout_height="110dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:src="@drawable/cnbc" />
+
+        <ImageButton
+            android:id="@+id/foxnews"
+            android:layout_width="140dp"
+            android:layout_height="110dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:src="@drawable/foxnews" />
+
+        <ImageButton
+            android:id="@+id/cnn"
+            android:layout_width="140dp"
+            android:layout_height="110dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:src="@drawable/cnn" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:text="Ülkelerin Haber Kuruluşları İçin Seçiniz"
+        android:textSize="19dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/usa"
+            android:layout_width="140dp"
+            android:layout_height="130dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:src="@drawable/usa" />
+
+        <ImageButton
+            android:id="@+id/england"
+            android:layout_width="140dp"
+            android:layout_height="130dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:src="@drawable/england" />
+
+        <ImageButton
+            android:id="@+id/germany"
+            android:layout_width="140dp"
+            android:layout_height="130dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:src="@drawable/germany" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/russia"
+            android:layout_width="140dp"
+            android:layout_height="130dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:src="@drawable/russia" />
+        <ImageButton
+            android:id="@+id/china"
+            android:layout_width="140dp"
+            android:layout_height="130dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:src="@drawable/china" />
+        <ImageButton
+            android:id="@+id/japan"
+            android:layout_width="140dp"
+            android:layout_height="130dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:src="@drawable/japan" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

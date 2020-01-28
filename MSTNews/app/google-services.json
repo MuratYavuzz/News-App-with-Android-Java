@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "684426103613",
+    "firebase_url": "https://bihaberdb.firebaseio.com",
+    "project_id": "bihaberdb",
+    "storage_bucket": "bihaberdb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:684426103613:android:c9239810a4245fdd35d354",
+        "android_client_info": {
+          "package_name": "com.example.mst_news"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "684426103613-qs085vdavrgq1capn1jde422n6cu5mqk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mst_news",
+            "certificate_hash": "412f593421af7caeb30bbadcccc9a1015f2fbcd1"
+          }
+        },
+        {
+          "client_id": "684426103613-6smk8rk899s0hm6m5r37k9thkp4pa996.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAnpHF41LWGCTQMQihnfKLUNI4_y_q-IQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "684426103613-6smk8rk899s0hm6m5r37k9thkp4pa996.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

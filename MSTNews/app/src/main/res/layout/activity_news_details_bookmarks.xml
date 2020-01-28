@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewsDetails">
+
+    <TextView
+        android:id="@+id/textViewBaslik"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="170dp"
+        android:layout_marginBottom="420dp"
+        android:text="Baslik"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:fontFamily="@font/buenard"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_red_dark"
+        android:paddingLeft="5dp"
+        android:paddingTop="2dp"
+        android:paddingRight="5dp"
+        android:paddingBottom="2dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toTopOf="@+id/textViewBaslik"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.957" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:background="#00FFFAFA"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/textViewIcerik"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="Icerik"
+        android:textSize="18dp"
+        app:fontFamily="sans-serif-condensed-light"
+        app:layout_constraintStart_toStartOf="@+id/textViewBaslik"
+        app:layout_constraintTop_toBottomOf="@+id/textViewBaslik" />
+
+    <TextView
+        android:id="@+id/textViewAd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="Ad"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="15dp"
+        app:fontFamily="@font/capriola"
+        app:layout_constraintStart_toStartOf="@+id/textViewIcerik"
+        app:layout_constraintTop_toBottomOf="@+id/textViewIcerik" />
+
+    <TextView
+        android:id="@+id/textViewTarih"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="30dp"
+        android:text="Tarih\nZaman"
+        android:textSize="15dp"
+        app:fontFamily="@font/capriola"
+        app:layout_constraintBottom_toBottomOf="@+id/textViewAd"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textViewAd" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:text="biHaber"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="20dp"
+        app:fontFamily="@font/architects_daughter"
+        app:layout_constraintBottom_toBottomOf="@+id/img"
+        app:layout_constraintStart_toStartOf="@+id/img" />
+
+    <Button
+        android:id="@+id/btnHabereGit"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:drawableLeft="@drawable/button"
+        android:onClick="HabereGit"
+        android:text="Habere Git"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewAd" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
