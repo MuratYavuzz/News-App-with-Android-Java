@@ -16,8 +16,8 @@ This project works for android 5.0 and above.
 </ul>
 <h2>API Key Note</h2>
 You should get your key from News API and paste it into key parts of the code.
-<h3><a href="https://newsapi.org">NewsAPI.org</a></h3>
 <h1>NEWS FEED</h1>
+<h3><a href="https://newsapi.org">NewsAPI.org</a></h3>
 
 ![](https://github.com/MuratYavuzz/News-App-with-Android-Java/blob/master/MSTNews/Images/rsz_ic_launcher-web.png)
 
